@@ -51,5 +51,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ vars.DOCKERHUB_USERNAME }}/cicd:latest
-            ${{ vars.DOCKERHUB_USERNAME }}/cicd:${{ github.sha }}
+            ${{ vars.DOCKERHUB_USERNAME }}/ci-scrimba-docker:latest
+            ${{ vars.DOCKERHUB_USERNAME }}/ci-scrimba-docker:${{ github.sha }}
